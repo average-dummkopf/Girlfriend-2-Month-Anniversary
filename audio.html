@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Message - Cute Cat Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8bfc7 0%, #f9d6d6 100%);
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Quicksand', Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: #fdf6ec;
+            border-radius: 10px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+            width: 80vw;
+            max-width: 700px;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+        }
+        .heading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .heading h1 {
+            font-family: 'Fredoka One', cursive;
+            font-size: 2.5em;
+            margin: 0;
+            color: #444;
+        }
+        .side-cat {
+            width: 60px;
+            height: auto;
+        }
+        .notes {
+            background: #fff0f4;
+            border-left: 4px solid #f47c3c;
+            padding: 15px 20px;
+            margin-bottom: 30px;
+            font-size: 0.85em;
+            color: #555;
+            text-align: left;
+            border-radius: 6px;
+            font-family: 'Quicksand', Arial, sans-serif;
+        }
+        .audio-player {
+            margin-top: 20px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #f47c3c;
+            font-weight: bold;
+            font-size: 0.95em;
+            transition: color 0.2s ease;
+        }
+        .back-link:hover {
+            color: #d94600;
+        }
+        @media (max-width: 700px) {
+            .side-cat {
+                width: 45px;
+            }
+            .container {
+                width: 98vw;
+                padding: 20px 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <img class="side-cat" src="C:\Users\galba\Documents\Personal Documents and What Not\Various stuff related to Girlfriend/image-removebg-preview (10).png" alt="Cat Left">
+            <h1>2 Month Anniversary - Audio Version</h1>
+            <img class="side-cat" src="C:\Users\galba\Documents\Personal Documents and What Not\Various stuff related to Girlfriend/image-removebg-preview (11).png" alt="Cat Right">
+        </div>
+        <div class="notes">
+            Here's the audio version of the anniversary message.<br><br>
+            <br>
+            Just remember, it's all straight from the heart. 💖
+        </div>
+        <div class="audio-player">
+            <audio controls>
+                <source src="Recording (13).m4a" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <a class="back-link" href="index.html">← Back to the message</a>
+        <a class="back-link" href="video.html" style="display: block; margin-top: 15px;">I'm done! →</a>
+    </div>
+</body>
+</html>
